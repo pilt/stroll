@@ -1,9 +1,21 @@
-### OS X
+## OS X Setup
 
     $ brew install imagemagick
     $ pip install -r requirements.txt
 
-### Test run
+## Input images
+
+The images in `data/` were taken during an outside walk
+of approximately 2 km. The last few images in the series
+were taken indoors (the end of the walk, before I got home).
+
+## Output images
+
+See the `compared/` dir. Red areas are the difference between
+two consecutive images. Also see 
+[the ImageMagick tool compare](http://www.imagemagick.org/Usage/compare/).
+
+## Performance
 
 Run on my MacBook Air. Output from `system_profiler`:
 
@@ -24,7 +36,11 @@ Time:
     user0m4.746s
     system_profiler0m1.850s
 
-Visualization:
+## Visualization
+
+Each bar is the distortion metric between two images. The first
+bar is the first image of the stroll compared with the second image,
+the last bar the last two images.
 
     $ python analyze.py 
     undefined
