@@ -1,0 +1,2 @@
+-e git://github.com/pilt/wand.git#egg=Wand
+ipython 

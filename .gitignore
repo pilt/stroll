@@ -1,0 +1,14 @@
+*.pyc
+*.vim
+.DS_store
+.Python
+/bin
+/include
+/lib
+/src
+/man
+/share
+/local
+/build
+core
+*.swp
